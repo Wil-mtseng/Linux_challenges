@@ -1,0 +1,64 @@
+Task 1:
+
+1. Lists all the folders in the current directory.
+2. Prints current working directory. It shows where in the you are in the directory
+3. mkdir workspace
+    cd workspace
+4. nothing happens because the folder is empty.
+5. touch README.md
+6. cp README.md CHANGELOG.md
+
+Task 2:
+
+1. touch exercise.md
+    sudo mv exercise.md /tmp
+    enter password
+    sudo rm /tmp/exercise.md
+   
+Task 3:
+
+1. cat > umuzi.md
+    cat > recruits.md
+    cat > cohort.md
+2. cat >> umuzi.md
+    "Space for peoms"
+    cat >> recruits.md
+    "Space filled with peoms"
+    cat >> cohort.md
+    "space for peoms"
+3. cat umuzi.md cohort.md recuits.md 
+4. cat umuzi.md cohort.md recuits.md > summary.md
+5. cat sammary.md >> The End
+
+Task 4:
+
+1. locate umuzi
+2. locate umuzi > search_results.md
+
+Task 5
+
+1.  cd Documents
+    touch pad.md
+2. cd ../
+    cd Desktop
+     mkdir work
+3. cp pad.md
+    
+5. cd -
+6. locate pad_copy.md
+
+Task 6:
+
+1. find ./ ~ -name "*.pdf"
+2. touch Wil.txt
+    find ./ ~ -name "*.pdf" > Wil.txt
+3. find / -mmin 1440
+
+Task 7:
+
+1. Nano my_bio.md
+2. ctrl x... Select Y and press enter
+3. nano my_files
+    ctrl X
+    my_bio.md
+
